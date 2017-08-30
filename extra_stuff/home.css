@@ -1,0 +1,16 @@
+{margin-bottom:0}.Email
+{line-height:2}.Footer-link
+{font-family:'Avenir Next','Segoe ui',Ubuntu,sans-serif;text-decoration:none;color:#1b2947;background:linear-gradient(180deg,transparent 94%,#e96f92 94%,#e96f92 100%);background-repeat:repeat-x;background-position:0 10px;transition:background-position 80ms ease-in,color 80ms;}.Footer-link strong
+{color:#e96f92;transition:color 80ms}.Footer-link:hover strong
+{color:#1b2947}.Footer-link:hover
+.center {
+    margin: auto;
+    width: 50%;
+    padding-left: 50%;
+}
+.picture{
+  width:90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  height:auto;
+}
