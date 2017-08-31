@@ -5,7 +5,7 @@
 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <link rel="icon" href="./extra_stuff/wave.ico" />
 
-    <title>tinyrspace</title>
+    <title>Ryan's Handyman Service</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="./extra_stuff/bootstrap.min.css" rel="stylesheet">
@@ -29,79 +29,112 @@
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
 	<!-- Brand and toggle get grouped for better mobile display -->
-	<div class="navbar-header">
+	<!-- <div class="navbar-header">
 	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 	    <span class="sr-only">toggle navigation</span>
 	    <span class="icon-bar"></span>
 	    <span class="icon-bar"></span>
 	    <span class="icon-bar"></span>
 	  </button>
-    <!-- <a href="https://www.github.com/tinyrspace"><img padding='10px' height='40px' width='auto' src="./extra_stuff/github.svg"></img></a> -->
-    <a href="https://www.twitter.com/tinyrspace"><img padding='10px' height='40px' width='auto'  src="./extra_stuff/twitter.svg"></img></a>
-	</div>
+    <a href="https://www.github.com/Ryan's Handyman Service"><img padding='10px' height='40px' width='auto' src="./extra_stuff/github.svg"></img></a>
+    <a href="https://www.twitter.com/Ryan's Handyman Service"><img padding='10px' height='40px' width='auto'  src="./extra_stuff/twitter.svg"></img></a>
+	</div> -->
 
 	<!-- Collect the nav links, forms, and other content for toggling -->
 	<!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	  <ul class="nav navbar-nav">
 
-       <li><a href="https://www.twitter.com/tinyrspace">twitter</a></li>
-      <li><a href="https://www.twitter.com/tinyrspace">twitter</a></li> -->
+       <li><a href="https://www.twitter.com/Ryan's Handyman Service">twitter</a></li>
+      <li><a href="https://www.twitter.com/Ryan's Handyman Service">twitter</a></li> -->
 	  <!-- </ul> -->
 	<!-- </div>/.navbar-collapse -->
       </div>
       <!-- /.container-fluid -->
     </nav>
     <!-- Your site -->
+    <div id="open-modal" class="modal-window">
+      <div>
+        <a href="#modal-close" title="Close" class="modal-close">Close</a>
+        <form action="" class="giant-letters wage-gap" id="wage-gap" onsubmit="return false;">
+        </br></br>When Ryan works</br>
+          <span class="salary-initial">
+        	<input type="number" min="2" step="1" id="salary-initial" name="salary-initial" onchange="calculateTotal()"/> hours</span>,
 
-<!-- Your site -->
-<div class="container main">
-  <div class="page-header">
-	  <h1>🏠</h1>
-    <h4>we build tinyr spaces</h4>
-    <div class="row">
-      <div class="col-md-12 buffer-sm">
-        <!-- <img class="hidden-xs" src="./extra_stuff/laptop-lg.png"> -->
-        <!-- <img class="visible-xs" src="./extra_stuff/laptop-lg.png" width="100%"> -->
+          <span class="input">
+
+
+            </br>you pay
+
+            <span id="salary-calculated"></span>
+        </form>
+        <h4>* 2 hour minimum</h4>
+        <h4>** use arrows in red box or type to adjust hours - click somewhere out of the red box to recalculate</h4>
       </div>
     </div>
+<!-- Your site -->
+<div class="container main">
+  <div class="page-header zup">
+
+<!-- /Modal -->
+	  <img class='logo' src='./extra_stuff/photo_video/ryans.png'/>
   </div>
   <div class="page-body">
-    <!-- <div class="col-md-12 action">
-      <a class="btn btn-lg btn-primary" role="button" href="https://www.reddit.com/r/ewyn/comments/5r3phx/help_me_build_a_truly_open_sourced_seastead/">help<div class="ripple-wrapper"></div></a>
-      <a class="btn btn-lg btn-primary" role="button" href="https://www.paypal.me/tinyrspace/25">donate<div class="ripple-wrapper"></div></a>
-    </div> -->
-    <div class="col-md-4 buffer-sm icon animsition" data-animsition-in-class="fade-in-down-sm" data-animsition-in-duration="2000" style="animation-duration: 2000ms; opacity: 1;">
+    <div class="zup col-md-4 buffer-sm icon animsition" data-animsition-in-class="fade-in-down-sm" data-animsition-in-duration="2000" style="animation-duration: 2000ms; opacity: 1;">
       <!-- <span class="glyphicon glyphicon-lg glyphicon-hand-up" aria-hidden="true"></span><br> -->
-      <h1>✨</h1>
-      <h3>you dream</h3>
-      <p>we'll turn your dream into a tinyr space</p>
+        <div class="container">
+          <div class="interior">
+            <a class="btn" href="#open-modal">
+              <h1>🖩</h1>
+              <h3>get estimate</h3>
+            </a>
+          </div>
+        </div>
+      <!-- <p>we'll turn your dream into a Ryan</p> -->
     </div>
-    <div class="col-md-4 buffer-sm icon animsition" data-animsition-in-class="fade-in-down-sm" data-animsition-in-duration="2000" style="animation-duration: 2000ms; opacity: 1;">
+    <div class="zup col-md-4 buffer-sm icon animsition" data-animsition-in-class="fade-in-down-sm" data-animsition-in-duration="2000" style="animation-duration: 2000ms; opacity: 1;">
       <!-- <span class="glyphicon glyphicon-lg glyphicon-hand-up" aria-hidden="true"></span><br> -->
-      <h1>📝</h1>
-      <h3>we design</h3>
-      <p>commision your tinyr space</p>
+      <!-- <p>commision your Ryan</p> -->
+      <button class="btn" onclick="location.href='tel:828.989.6095'" type='button'>
+        <h1>📱</h1>
+        <h3>call or text</h3>
+      </button>
     </div>
-    <div class="col-md-4 buffer-sm icon animsition" data-animsition-in-class="fade-in-down-sm" data-animsition-in-duration="2000" style="animation-duration: 2000ms; opacity: 1;">
+    <div class="zup col-md-4 buffer-sm icon animsition" data-animsition-in-class="fade-in-down-sm" data-animsition-in-duration="2000" style="animation-duration: 2000ms; opacity: 1;" >
       <!-- <span class="glyphicon glyphicon-lg glyphicon-hand-up" aria-hidden="true"></span><br> -->
-      <h1>🏗️</h1>
-      <h3>tinyr builds</h3>
-	    <p>then we'll build your tinyr space</p>
+      <button class="btn" onclick="location.href='https://ryanshandymanservice.simplybook.me/v2/#book'" type='button'>
+        <h1>🗓️</h1>
+        <h3>book Ryan now</h3>
+      </button>
     </div>
-    <div class="col-md-3 buffer-sm icon animsition" data-animsition-in-class="fade-in-down-sm" data-animsition-in-duration="2000" style="animation-duration: 2000ms; opacity: 1;">
-<a></a>
+  </br></br></br>
+    <div >
+      <img class="picture" src="./extra_stuff/photo_video/1.jpg"></img>
+      </br>
+      </br>
+    <!-- <a href="mailto:Ryan's Handyman Service@gmail.com" class="container-fluid">
+    contact Ryan
+    </a> -->
     </div>
-    <img class="picture" src="./extra_stuff/geran-de-klerk-136350.jpg"></img>
-    <a href="mailto:tinyrspace@gmail.com" class="container-fluid">
-    contact tinyr space
-    </a>
-    <img class="picture" src="./extra_stuff/tiny-replace-2.jpg"></img>
-  </div>
+    <div class="animsition" >
+      <img class="picture" src="./extra_stuff/photo_video/3.gif"></img>
+      </br>
+      </br>
+    </div>
+    <div class="animsition" >
+      <img class="picture " src="./extra_stuff/photo_video/2.jpg"></img>
+      </br>
+      </br>
+    </div>
+    <div class="animsition" >
+      <img class="picture" src="./extra_stuff/photo_video/4.jpg"></img>
+      </br>
+      </br>
+    </div>
 </div>
 
 <footer class="container-fluid footer">
   <p>
-<a href="https://twitter.com/tinyrspace">twitter - @tinyrspace</a>
+<!-- <a href="https://twitter.com/Ryan's Handyman Service">twitter - @Ryan's Handyman Service</a> -->
   </p>
 </footer>
 <!-- Your site ends -->
@@ -109,6 +142,8 @@
 <script src="./extra_stuff/bootstrap.min.js"></script>
 <script src="./extra_stuff/ripples.min.js"></script>
 <script src="./extra_stuff/material.min.js"></script>
+<script src="./extra_stuff/calc.js"></script>
+
 <!-- animsition.js -->
 <script src="./extra_stuff/animsition.min.js"></script>
 <script>
